@@ -25,4 +25,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     rild.libpath=/vendor/lib/libsec-ril.so \
     rild.libargs=-d /dev/ttyS0 \
     ro.telephony.default_network=9 \
-    ro.telephony.mms_data_profile=5
+    ro.telephony.mms_data_profile=5 \
+    ro.gsm.sim.operator.iso-country=false \
+    ro.ril.telephony.mqanelements=6 \
+    ro.ril.hsxpa=1 \
+    ro.ril.gprsclass=10 \
+    persist.data.netmgrd.qos.enable=false \
+    ro.use_data_netmgrd=false \
+    ro.ril.force_eri_from_xml=true \
+
